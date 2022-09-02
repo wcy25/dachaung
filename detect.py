@@ -130,6 +130,7 @@ def run(
         global kai
         if kai ==0:
             playsound('kaiji.mp3')                        
+            print("开机")
             kai=1
         UART=serial_port.read()
         print(UART)
